@@ -5,6 +5,7 @@ from tkinter import scrolledtext
 
 
 
+
 class VentanaPrincipal:
     def on_enter(self, event):
         event.widget.config(bg="grey")
@@ -105,7 +106,9 @@ class VentanaPrincipal:
         self.root.quit()
         self.root.destroy()
         exit()
-
+    
+    def nuevo():
+        return
  
 
 
